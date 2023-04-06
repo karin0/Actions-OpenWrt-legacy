@@ -20,5 +20,4 @@ sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/theme
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 删除原默认主题
-rm -rf package/lean/luci-theme-bootstrap
-
+# rm -rf package/lean/luci-theme-bootstrap
